@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/saurabh/Desktop/zl/mlruns/0/7d699aff544146308d6cfd9295c82917/artifacts
+end_time: 1730281532285
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7d699aff544146308d6cfd9295c82917
+run_name: bald-goat-1
+run_uuid: 7d699aff544146308d6cfd9295c82917
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730281520272
+status: 3
+tags: []
+user_id: root
