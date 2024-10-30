@@ -19,3 +19,27 @@ DVC Solution: DVC makes it easy to collaborate on large datasets and models by a
 DVC works alongside Git without replacing it. It integrates smoothly into existing Git workflows, enabling machine learning teams to continue using Git for versioning code while using DVC for managing data, models, and pipelines.
 
 
+MLFLOW_Tracking_URI = "https://dagshub.com/1602saurab/zl.mlflow"
+--------------------------------------------------
+import dagshub
+dagshub.init(repo_owner='1602saurab', repo_name='zl', mlflow=True)
+
+import mlflow
+with mlflow.start_run():
+  mlflow.log_param('parameter name', 'value')
+  mlflow.log_metric('metric name', 1)
+
+------------------------------------------------------
+MLFLOW_Tracking_username = 1602saurab
+MLFLOW_Tracking_password = 
+pytho script.py 
+
+-----------------------------------------------------
+
+Now open the terminal(bash) and write 
+export https://dagshub.com/1602saurab/zl.mlflow
+
+export MLFLOW_Tracking_username = 1602saurab
+export MLFLOW_Tracking_password  = 
+
+
